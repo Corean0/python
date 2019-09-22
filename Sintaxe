@@ -1,0 +1,53 @@
+# I'll use this notepad to learn about python's syntax and semantic
+
+# Comment
+  #
+  
+# Launching IPython on cmd
+  ipython
+
+# Launching Jupyter Qtconsole on cmd
+  jupyter qtconsole
+
+# Launching Jupyter Notebook on cmd
+  jupyter notebook
+	
+# cmd commands
+  %ls (list files)
+  %pwd (return current working directory) 
+  %cd (change working directory)
+  %cp (copy file)
+  %run (code file can be executed within an interactive IPython session)
+  %who (lists all defined symbols (variables and functions))
+
+# Soma, Subtração, Multiplicação, Elevado
+  +     -          *              **
+
+# Supress the output
+  ;
+
+# Complete the sentence automatically
+  [TAB]
+
+# List all magic functions
+  %lsmagic or %%lsmagic (%% for a multiline cell)
+  
+# Show all the documentation about one magic function
+  %(magic function)?
+
+# Debug
+  %debug
+
+# Reset
+  %reset (eliminate the need for otherwise common exit-restart cycles of the console)
+
+# Commands useful when looking for bottlenecks and attempting to optimize code
+  %timeit and %time (%% for a multiline cell)
+
+# Command useful when looking for bottlenecks and attempting to optimize code (advanced)
+  %prun
+
+# Conversões no Jupyter Notebook
+  jupyter nbconvert --to python Notebook.ipynb (Python Code)
+  jupyter nbconvert --to pdf Notebook.ipynb (PDF)
+  jupyter nbconvert --to html Notebook.ipynb (HTML)
